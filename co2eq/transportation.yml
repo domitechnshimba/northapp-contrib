@@ -1,0 +1,96 @@
+ yamllint disable rule:empty-lines rule:line-length
+#
+# /!\ Remember to update the version of the associated
+# carbon model when changing this file.
+#
+---
+_children:
+  Car:
+    _children:
+      Fossil fuel car:
+        icon: fuel-can
+        intensityGramPerKilometer: 257
+        source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+        unit: gCO2eq/km
+        manufacturing: 16.7%
+        speedKmPerHour:
+      Electric car:
+        icon: fuel-can
+        intensityGramPerKilometer: 81
+        source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+        unit: gCO2eq/km
+        speedKmPerHour:
+      Hybrid car:
+        icon: fuel-can
+        intensityGramPerKilometer: 180
+        source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+        unit: gCO2eq/km
+        speedKmPerHour:
+  Public transportation:
+    _children:
+      Local train:
+        icon: fuel-can
+        intensityGramPerKilometer: 42
+        source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+        unit: gCO2eq/km
+        speedKmPerHour:
+      High-speed train:
+        icon: fuel-can
+        intensityGramPerKilometer: 42
+        source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+        unit: gCO2eq/km
+        speedKmPerHour:
+      Subway:
+        icon: fuel-can
+        intensityGramPerKilometer: 42
+        source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+        unit: gCO2eq/km
+        speedKmPerHour:
+      Local bus:
+        icon: fuel-can
+        intensityGramPerKilometer: 42
+        source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+        unit: gCO2eq/km
+        speedKmPerHour:
+      Long-distance bus:
+        icon: fuel-can
+        intensityGramPerKilometer: 42
+        source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+        unit: gCO2eq/km
+        speedKmPerHour:
+  Motorcycle:
+    icon: fuel-can
+    intensityGramPerKilometer: 42
+    source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+    unit: gCO2eq/km
+    speedKmPerHour:
+  E-scooter:
+    icon: fuel-can
+    intensityGramPerKilometer: 42
+    source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+    unit: gCO2eq/km
+    speedKmPerHour:
+  Ferry:
+    icon: fuel-can
+    intensityGramPerKilometer: 42
+    source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+    unit: gCO2eq/km
+    speedKmPerHour:
+  Bicycle:
+    icon: fuel-can
+    intensityGramPerKilometer: 42
+    source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+    unit: gCO2eq/km
+    speedKmPerHour:
+  Plane:
+    _children:
+      Economy class:
+        icon: fuel-can
+        intensityGramPerKilometer: 42
+        source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+        unit: gCO2eq/km
+      Business class:
+        icon: fuel-can
+        intensityGramPerKilometer: 42
+        source: 'https://static.ducky.eco/calculator_documentation.pdf' #Ecoinvent Avg european car
+        unit: gCO2eq/km
